@@ -48,7 +48,7 @@ const (
 	keyImageResolveMode        = "image-resolve-mode"
 	keyGlobalAddHosts          = "add-hosts"
 	keyForceNetwork            = "force-network-mode"
-	keyOverrideCopyImage       = "override-copy-image" // remove after CopyOp implemented
+	keyOverrideCopyImage       = "build-arg:COPY_IMAGE" // remove after CopyOp implemented
 	keyNameContext             = "contextkey"
 	keyNameDockerfile          = "dockerfilekey"
 	keyContextSubDir           = "contextsubdir"

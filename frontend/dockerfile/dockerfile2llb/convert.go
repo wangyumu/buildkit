@@ -796,7 +796,7 @@ func dispatchCopyFileOp(d *dispatchState, c instructions.SourcesAndDest, sourceS
 				AttemptUnpack:       isAddCommand,
 				CreateDestPath:      true,
 				AllowWildcard:       true,
-				AllowEmptyWildcard:  true,
+				AllowEmptyWildcard:  false,
 			}}, copyOpt...)
 
 			if a == nil {
